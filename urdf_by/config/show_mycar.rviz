@@ -6,7 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /录制的点_绿色1
       Splitter Ratio: 0.5725551843643188
     Tree Height: 576
   - Class: rviz/Selection
@@ -52,54 +51,6 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /road_rviz
-      Name: 录制的点_绿色
-      Namespaces:
-        points_and_lines: true
-      Queue Size: 100
-      Value: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /Tracking_point
-      Name: 纯追踪的目标点_蓝色
-      Namespaces:
-        {}
-      Queue Size: 100
-      Value: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /all_obs
-      Name: 所有的障碍物
-      Namespaces:
-        {}
-      Queue Size: 100
-      Value: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /road_rviz_globle_path
-      Name: djstla规划出来的轨迹
-      Namespaces:
-        points_and_lines: true
-      Queue Size: 100
-      Value: true
-    - Class: rviz/Marker
-      Enabled: false
-      Marker Topic: /dwa_obs
-      Name: dwa考虑的障碍物_棕色
-      Namespaces:
-        {}
-      Queue Size: 100
-      Value: false
-    - Class: rviz/Marker
-      Enabled: false
-      Marker Topic: /dwa_point
-      Name: dwa避障时追踪的点_灰色
-      Namespaces:
-        {}
-      Queue Size: 100
-      Value: false
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
@@ -161,30 +112,6 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /visualization_marker
-      Name: frenet_obs
-      Namespaces:
-        {}
-      Queue Size: 100
-      Value: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /all_obs_frent
-      Name: frenet_point
-      Namespaces:
-        points_and_lines: true
-      Queue Size: 100
-      Value: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /road_rviz_frent
-      Name: Marker
-      Namespaces:
-        points_and_lines: true
-      Queue Size: 100
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -213,7 +140,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 22.3420352935791
+      Distance: 8.960859298706055
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -221,9 +148,9 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 6.170114517211914
-        Y: 2.377385139465332
-        Z: 0.03793833404779434
+        X: 0.4030929207801819
+        Y: 0.4191170036792755
+        Z: 0.03597608581185341
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
