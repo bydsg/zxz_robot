@@ -19,7 +19,8 @@ source ./devel/setup.bash		#刷新环境变量<br>
 roslaunch urdf_by demo01.launch 	#运行仿真环境，此时已有odom和cmd_vel接口<br>
 rosrun key_control key 		#运行键盘控制节点 wasd控制小车移动 shift加速<br>
 <br>
-![imagc](https://github.com/bydsg/zxz_robot/blob/main/pic/2023-06-04%2017-20-47%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![image](https://github.com/bydsg/zxz_robot/blob/main/pic/2023-06-04%2017-20-47%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)<br>
+![image](https://github.com/bydsg/zxz_robot/blob/main/pic/2023-06-04%2017-20-47%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)<br>
 ###################<br>
 若运行roslaunch urdf_by demo01.launch 时提示arbotix_ros启动失败，可以尝试将<br>
 arbotix_ros/arbotix_python/bin/arbotix_driver下第一行#!/usr/bin/env python3<br>
